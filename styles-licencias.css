@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("download.jpg");
+    background-image: url("fondo4.jpg");
     background-repeat: no-repeat;
     
 }
@@ -37,10 +37,10 @@ nav ul li a {
 }
 
 main {
-    max-width: 800px;
+    max-width: 900px;
     margin: 40px auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.512);
+    background-color: rgba(247, 240, 227, 0.796);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 }
 
