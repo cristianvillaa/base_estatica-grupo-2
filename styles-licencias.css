@@ -3,8 +3,12 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("fondo4.jpg");
-    background-repeat: no-repeat; 
-    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Para que el fondo no se desplace */
+    background-size: cover; /* Para que el fondo cubra toda la ventana */
+    background-position: center center; /* Opcional: centra la imagen */
+    position: relative; /* Mantenemos el relative para posibles posicionamientos de elementos hijos */
+    min-height: 100vh; /* Asegura que el body ocupe al menos la altura de la ventana */
 }
 
 header {
